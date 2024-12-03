@@ -1,0 +1,11 @@
+.magazine {
+  padding: 0 10px;
+}
+.mag-frontpage-img {
+  height: 150px;
+}
+.mag-frontpage-title {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
