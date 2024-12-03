@@ -10,6 +10,7 @@ export default function MagazineRow({ category }) {
         {MagazineList.filter((magazine) => magazine.category === category).map(
           (filteredMagazine) => (
             <Magazine
+              key={filteredMagazine.id}
               id={filteredMagazine.id}
               title={filteredMagazine.title}
               frontpage={filteredMagazine.frontpage}
